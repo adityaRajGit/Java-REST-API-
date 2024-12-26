@@ -4,6 +4,7 @@
 - Create a new Spring Boot project named ecommerce-store-api with the following package structure:
 
 ecommerce-store-api/
+.
 ├── src/
 │   ├── main/
 │   │   ├── java/
@@ -46,7 +47,7 @@ ecommerce-store-api/
 │   │                           ├── CategoryServiceTest.java
 │   │                           └── ProductServiceTest.java
 │   └── target/
-└── pom.xml
+└── pom.xml ...
 
 
 
