@@ -142,3 +142,16 @@ Add validation annotations
 * Configure security settings for the API
 * Implement authentication and authorization
 * Add @EnableWebSecurity annotation
+
+  # Order of Building :
+- Main Application Class
+- Core Packages
+- Configuration Files
+- Entities
+- Repositories
+- Service Layer
+- DTOs
+- Controllers
+- Utility Classes
+- Resource Classes
+- Testing/POM.xml
