@@ -4,50 +4,50 @@
 - Create a new Spring Boot project named ecommerce-store-api with the following package structure:
 
 ecommerce-store-api/
-.
-├── src/
-│   ├── main/
-│   │   ├── java/
-│   │   │   └── com/
-│   │   │       └── example/
-│   │   │           └── ecommercestoreapi/
-│   │   │               ├── config/
-│   │   │               │   ├── SecurityConfig.java
-│   │   │               │   └── WebConfig.java
-│   │   │               ├── controller/
-│   │   │               │   ├── CategoryController.java
-│   │   │               │   └── ProductController.java
-│   │   │               ├── dto/
-│   │   │               │   ├── CategoryDTO.java
-│   │   │               │   └── ProductDTO.java
-│   │   │               ├── entity/
-│   │   │               │   ├── Category.java
-│   │   │               │   └── Product.java
-│   │   │               ├── repository/
-│   │   │               │   ├── CategoryRepository.java
-│   │   │               │   └── ProductRepository.java
-│   │   │               ├── service/
-│   │   │               │   ├── CategoryService.java
-│   │   │               │   └── ProductService.java
-│   │   │               └── util/
-│   │   │                   └── ResponseUtil.java
-│   │   ├── resources/
-│   │   │   ├── static/
-│   │   │   ├── templates/
-│   │   │   └── application.properties
-│   │   └── test/
-│   │       └── java/
-│   │           └── com/
-│   │               └── example/
-│   │                   └── ecommercestoreapi/
-│   │                       ├── controller/
-│   │                       │   ├── CategoryControllerTest.java
-│   │                       │   └── ProductControllerTest.java
-│   │                       └── service/
-│   │                           ├── CategoryServiceTest.java
-│   │                           └── ProductServiceTest.java
-│   └── target/
-└── pom.xml ...
+* ecommerce-store-api/
+  * src/
+    * main/
+      * java/
+        * com/
+          * example/
+            * ecommercestoreapi/
+              * config/
+                * SecurityConfig.java
+                * WebConfig.java
+              * controller/
+                * CategoryController.java
+                * ProductController.java
+              * dto/
+                * CategoryDTO.java
+                * ProductDTO.java
+              * entity/
+                * Category.java
+                * Product.java
+              * repository/
+                * CategoryRepository.java
+                * ProductRepository.java
+              * service/
+                * CategoryService.java
+                * ProductService.java
+              * util/
+                * ResponseUtil.java
+      * resources/
+        * static/
+        * templates/
+        * application.properties
+      * test/
+        * java/
+          * com/
+            * example/
+              * ecommercestoreapi/
+                * controller/
+                  * CategoryControllerTest.java
+                  * ProductControllerTest.java
+                * service/
+                  * CategoryServiceTest.java
+                  * ProductServiceTest.java
+    * target/
+  * pom.xml
 
 
 
